@@ -10,7 +10,7 @@ public class main1 {
 	
 	@Test
 	public void testingMinLong() {
-		Assert.assertEquals(1, newClass.returnLowestLong(1, 5));
+		Assert.assertEquals(1L, newClass.returnLowestLong(1L, 5L));
 	}
 	
 	@Test
@@ -41,7 +41,7 @@ public class main1 {
 	
 	@Test
 	public void testingMaxLong() {
-		Assert.assertEquals(568768, newClass.returnMaxLong(568768, 8545));
+		Assert.assertEquals(568768L, newClass.returnMaxLong(568768L, 8545L));
 	}
 	
 	@Test
@@ -56,7 +56,7 @@ public class main1 {
 	
 	@Test
 	public void testingPlusOneLong() {
-		Assert.assertEquals(4, newClass.returnPlusOneLong(3));
+		Assert.assertEquals(4L, newClass.returnPlusOneLong(3L));
 	}
 	
 	@Test
