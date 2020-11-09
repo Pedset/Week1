@@ -73,10 +73,12 @@ public class main1 {
 	public void testingSquareRootDouble() {
 		Assert.assertEquals(5, newClass.returnSquareRootDouble(25.0), 0);
 	}
+	
 	@Test
 	public void testingCubeRootDouble() {
 		Assert.assertEquals(3, newClass.returnCubeRootDouble(27.0), 0);
 	}
+	
 	@Test
 	public void testingRandomDouble() {
 		Assert.assertEquals(0.5, newClass.returnRandomDouble(), 0.5);

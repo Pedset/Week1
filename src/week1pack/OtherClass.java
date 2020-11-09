@@ -36,19 +36,23 @@ public class OtherClass {
 	}
 	//10
 	public int returnPlusOneInt(int i) {
-		return ++i;
+		if(i < Integer.MAX_VALUE) ++i;
+		return i;
 	}
 	//11
 	public long returnPlusOneLong(long i) {
-		return ++i;
+		if(i < Long.MAX_VALUE) ++i;
+		return i;
 	}
 	//12
 	public int returnMinOneInt(int i) {
-		return --i;
+		if(i > Integer.MIN_VALUE) --i;
+		return i;
 	}
 	//13
 	public long returnMinOneLong(long i) {
-		return --i;
+		if(i > Long.MIN_VALUE) --i;
+		return i;
 	}
 	//14
 	public double returnSquareRootDouble(double d) {
